@@ -3,7 +3,7 @@ const AgendaSchema = new mongoose.Schema({
     date: String,
     criado_em: String,
     atualizado_em: String,
-    status:true
+    status:Boolean
 })
 
 module.exports =  mongoose.model('agenda',AgendaSchema);

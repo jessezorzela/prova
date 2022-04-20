@@ -2,7 +2,7 @@ const express = require('express')
 const routes = require('./router')
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://:r3ii1pSBvfYMmreA@maik.4vgte.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://jesse:21062002@cluster0.acbf8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 {
   useNewUrlParser: true,
   useUnifiedTopology: true
