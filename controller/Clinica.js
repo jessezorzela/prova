@@ -2,8 +2,8 @@ const Clinica = require('../model/Clinica')
 
 module.exports = {
     async index(req, res){
-        let clinicas = await Clinica.find()
-        return res.json(clinicas)
+        let clinica = await Clinica.find()
+        return res.json(clinica)
     },
     async store(req, res){
         let clinica = req.body

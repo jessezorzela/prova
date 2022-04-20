@@ -12,4 +12,4 @@ const MedicoSchema = new mongoose.Schema({
     status:true 
 })
 
-module.exports = mongoose.model('medico', MedicoSchema);
+module.exports = mongoose.model('Medico', MedicoSchema);

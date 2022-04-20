@@ -1,0 +1,16 @@
+const mongoose = require('mongoose')
+const UsuariosHasPermisoesSchema = new mongoose.Schema({
+    User : {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    },
+    Permisoes : {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Permisoes'
+    },
+    criado_em: Number,
+    atualizado_em: Number,
+    status : Boolean, 
+});
+
+module.exports = mongoose.model('UsuariosHasPermisoesSchema', UsuariosHasPermisoesSchema)

@@ -1,4 +1,4 @@
-const medico = require('../model/medico')
+const medico = require('../model/Medico')
 
 module.exports = {
     async index(req, res){
